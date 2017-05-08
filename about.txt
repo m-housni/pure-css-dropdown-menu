@@ -1,0 +1,12 @@
+<!--
+In order to create this Pure CSS Dropdown menu you may go through these steps:
+
+  -  create a nav block with class menu
+  -  inside the nav block create ul with 3 li with class a b c
+  -  inside each li create div meant to show items
+  -  create style sheet 
+        - let li float left and give them absolute position and give them 40x135px height width
+        - let 2nd li go left of 150px using margin-left
+        - let 3rd li go left of 300px using margin-left
+        - onhover apply transition to li (transition:height .3s ease-in;)
+-->

@@ -1,0 +1,59 @@
+<!--
+In order to create this Pure CSS Dropdown menu you may go through these steps:
+
+  -  create a nav block with class menu
+  -  inside the nav block create ul with 3 li with class a b c
+  -  inside each li create div meant to show items
+  -  create style sheet 
+        - let li float left and give them absolute position and give them 40x135px height width
+        - let 2nd li go left of 150px using margin-left
+        - let 3rd li go left of 300px using margin-left
+        - onhover apply transition to li (transition:height .3s ease-in;)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS DropDown</title>
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li id="a">
+                <a href="#">Web Design</a>
+                <div>
+                    <hr>
+                    <strong>HTML: </strong> <a href="#">Basic HTML</a> | <a href="#">HTML5</a>
+                    <hr>
+                    <strong>CSS: </strong> <a href="#">Basic CSS3</a> | <a href="#">CSS Animation</a>
+
+                </div>
+            </li>
+            <li id="b">
+                <a href="#">Web Programming</a>
+                <div>
+                    <hr>
+                    <strong>Frontend: </strong> <a href="#">JavaScript</a> | <a href="#">JQuery</a>
+                    <hr>
+                    <strong>Backend: </strong> <a href="#">Node.js</a> | <a href="#">PHP</a>
+
+                </div>
+            </li>
+            <li id="c">
+                <a href="#">Graphic Design</a>
+                <div>
+                    <hr>
+                    <strong>Graphics: </strong> <a href="#">Photoshop</a> | <a href="#">Illustrator</a>
+                    <hr>
+                    <strong>3d Animation: </strong> <a href="#">In-Design</a> | <a href="#">Flash</a>
+
+                </div>
+            </li>
+            
+        </ul>
+    </nav>
+    
+</body>
+</html>
